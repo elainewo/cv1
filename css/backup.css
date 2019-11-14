@@ -1,0 +1,68 @@
+body {
+  font-family: 'Muli', sans-serif;
+  font-weight: normal;
+  font-size: 24px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+}
+
+div.header {
+  background-color: #faf080;
+  display: block;
+  /* h1 padding: 37px;
+  width: 250px; */
+}
+
+
+div.headerImageContainer {
+  display: block;
+  background-color: #faf080;
+}
+
+section.sectionBio {
+  display: block;
+  background-color: #8a8a8a;
+  color: #faf080;
+}
+
+.bioProfileImage {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+div:nth-of-type(2) h3 {
+  color: #e8e8e8;
+}
+
+div:nth-of-type(2) p {
+  color: #e8e8e8;
+}
+
+section.sectionExperience h2 {
+  color: #6a6867;
+}
+
+section.sectionEducation h2 {
+  color: #6a6867;
+}
+
+table {
+  color: #6a6867;
+}
+
+td{
+  text-align: right;
+}
+
+section.sectionSkills h2 {
+  color:  #faf080;
+}
+
+section.sectionSkills {
+  color: #6a6867;
+}

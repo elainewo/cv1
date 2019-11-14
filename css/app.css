@@ -1,0 +1,361 @@
+body {
+  font-family: 'Muli', sans-serif;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 1.4;
+}
+
+.container {
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  font-family: 'Muli', sans-serif;
+}
+
+h2 {
+  font-size: 60px;
+  font-weight: 600;
+  color: #6a6867;
+  position: relative;
+  margin-bottom: 60px;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 28px;
+}
+
+h2:after {
+  content: '';
+  font-size: 0;
+  display: inline-block;
+  background: #faf080;
+  height: 10px;
+  width: 75px;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  margin-top: 15px;
+}
+
+p {
+  padding: 20px 0;
+}
+
+td {
+  padding: 20px 30px 20px 0px;
+}
+
+td span::before {
+  content: "\A";
+  white-space: pre;
+}
+
+
+main>section {
+  padding: 140px 0;
+}
+
+section.dark {
+  background: #8a8a8a;
+  color: #e8e8e8;
+  font-size: 0;
+}
+
+section.dark h2 {
+  color: #faf080;
+}
+
+section.dark h3 {
+  color: #fff;
+  font-weight: normal;
+}
+
+section.dark h2:after {
+  background: #fff;
+}
+
+section.light {
+  background: #fff;
+  color: #6a6867;
+}
+
+section.light h3 {
+  font-weight: normal;
+}
+
+header {
+  background: #faf080;
+  font-size: 0;
+  height: 70vw;
+  max-height: 1000px;
+}
+
+header h1 {
+  font-size: 4vw;
+  font-weight: 300;
+  color: #999797;
+}
+
+header h2 {
+  color: #6a6867;
+  font-size: 3.5vw;
+  background: #faf080;
+  display: inline-block;
+  padding: 1.2vw 2.2vw;
+  padding-left: 0;
+  font-weight: bold;
+}
+
+header img {
+  width: 100%;
+  height: auto;
+}
+
+header>div {
+  display: inline-block;
+  vertical-align: middle;
+  height: 100%
+}
+
+header>div:first-of-type {
+  width: 35%;
+  font-size: 14px;
+  white-space: nowrap;
+  text-transform: uppercase;
+  box-sizing: border-box;
+  position: relative;
+}
+
+header>div:first-of-type:after {
+  content: '';
+  background: linear-gradient(to right bottom, #faf080 0%, #faf080 50%, transparent 50.5%);
+  top: 0;
+  left: 100%;
+  width: 20%;
+  height: 100%;
+  position: absolute;
+}
+
+header>div:last-of-type {
+  width: 65%;
+  background: transparent url("../img/header-image.jpg") no-repeat;
+  background-size: cover;
+}
+
+header>div:first-of-type>div {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  padding-left: 4vw;
+  z-index: 10;
+  transform: translateY(-50%);
+}
+
+section.sectionBio {
+  background-image: url("../img/background-bubbles.png");
+  background-repeat: no-repeat;
+  background-size: 90%;
+  background-position: bottom center;
+  padding-bottom: 200px;
+}
+
+section.sectionBio article {
+  font-size: 0;
+}
+
+section.sectionBio article>div {
+  font-size: 24px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+section.sectionBio article>div:first-of-type {
+  width: 30%;
+}
+
+section.sectionBio article>div:last-of-type {
+  padding-top: 10px;
+  width: 70%;
+}
+
+.bioProfileImage {
+  width: 271px;
+  height: 271px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+section.sectionEducation {
+  box-sizing: border-box;
+  position: relative;
+  background: #faf080;
+}
+
+section.sectionEducation h2:after {
+  background: #fff;
+}
+
+section.sectionEducation:before {
+  content: '';
+  background: linear-gradient(to left bottom, #faf080 50%, #faf08000 50.5%, transparent 50%);
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 5%;
+  position: absolute;
+  z-index: 111;
+}
+
+section.sectionEducation:after {
+  content: '';
+  background: linear-gradient(to left top, #faf080 50%, #faf08000 50.5%, transparent 50%);
+  bottom: 100%;
+  left: 0;
+  width: 100%;
+  height: 5%;
+  position: absolute;
+  z-index: 111;
+}
+
+section.sectionSkills {
+  width: 100%;
+  padding-top: 180px;
+  background-image: url("../img/ic-idea.svg");
+  background-repeat: no-repeat;
+  background-position: 90% 100%;
+  background-size: 35%;
+}
+
+section.sectionSkills ul {
+  width: 70%;
+}
+
+section.sectionSkills li {
+  font-size: 36px;
+  background: #faf080;
+  display: inline-block;
+  vertical-align: middle;
+  color: #6a6867;
+  padding: 22px 50px;
+  margin: 24px 20px;
+}
+
+section.sectionContactMe {
+  width: 100%;
+  background: transparent url("../img/pattern-image.jpg") no-repeat;
+  background-size: cover;
+}
+
+section.sectionContactMe .businessCard {
+  width: 100%;
+  max-width: 437px;
+  background: rgba(255, 255, 255, .925);
+  padding: 70px 60px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  border: 1px solid #f7f7f7;
+  box-shadow: 0 4px 6px -2px rgba(10, 10, 10, .1);
+}
+
+section.sectionContactMe a {
+  color: #6a6867;
+  text-decoration: none;
+}
+
+section.sectionContactMe a:hover {
+  color: #faf080;
+}
+
+section.sectionContactMe .businessCard ul.businessCardContactData li {
+  position: relative;
+  line-height: 1;
+  padding: 12px 0;
+  padding-left: 32px;
+}
+
+section.sectionContactMe .businessCard ul.businessCardContactData li:before {
+  content: '';
+  position: absolute;
+  background: transparent url("../img/ic-email.svg") no-repeat;
+  background-size: cover;
+  top: 13px;
+  left: 0;
+  height: 24px;
+  width: 24px;
+}
+
+section.sectionContactMe .businessCard ul.businessCardContactData li:last-of-type:before {
+  background: transparent url("../img/ic-phone.svg") no-repeat;
+}
+
+section.sectionContactMe .businessCard ul.businessCardSocialMedia {
+  padding-top: 40px;
+  font-size: 0;
+}
+
+section.sectionContactMe .businessCard ul.businessCardSocialMedia li {
+  display: inline-block;
+  font-size: 0;
+  padding: 0 10px;
+}
+
+section.sectionContactMe .businessCard ul.businessCardSocialMedia li:first-of-type {
+  padding-left: 0;
+}
+
+section.sectionContactMe .businessCard ul.businessCardSocialMedia li:last-of-type {
+  padding-right: 0;
+}
+
+section.sectionContactMe .businessCard ul.businessCardSocialMedia li a {
+  display: inline-block;
+}
+
+section.sectionContactMe h2 {
+  font-size: 48px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+footer {
+  background: #515151;
+  color: #eeeeee;
+  font-size: 0;
+}
+
+footer>div>div {
+  display: inline-block;
+  width: 50%
+}
+
+footer li {
+  display: inline-block;
+  padding: 0 9px;
+}
+
+footer p, footer ul {
+  font-size: 13px;
+  padding: 8px 0;
+}
+
+footer ul {
+  text-align: right;
+}
+
+footer a {
+  color: #eeeeee;
+  text-decoration: none;
+}
+
+a {
+  color: #eeeeee;
+}
+
+a:hover {
+  color: #faf080;
+}

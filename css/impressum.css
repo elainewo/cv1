@@ -1,0 +1,37 @@
+
+
+section.light {
+background: #faf080;
+}
+
+a {
+  color: #8a8a8a;
+  text-decoration: none;
+}
+
+h1 {
+  position: relative;
+  font-size: 36px;
+  margin-bottom: 60px;
+}
+
+h1:after {
+  content: '';
+  font-size: 0;
+  display: inline-block;
+  background: #fff;
+  height: 10px;
+  width: 75px;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  margin-top: 15px;
+}
+
+p {
+  padding: 0;
+}
+
+p#author {
+  padding-top: 10px;
+}
