@@ -6,9 +6,9 @@ body {
 }
 
 .container {
-  max-width: 1400px;
-  width: 100%;
-  margin: 0 auto;
+  /* max-width: 1400px; */
+  max-width: 100%;
+  margin: 0 20px 0 20px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -55,9 +55,8 @@ td span::before {
   white-space: pre;
 }
 
-
 main>section {
-  padding: 140px 0;
+  padding: 100px 0;
 }
 
 section.dark {
@@ -92,7 +91,7 @@ header {
   background: #faf080;
   font-size: 0;
   height: 70vw;
-  max-height: 1000px;
+  max-width: 100%;
 }
 
 header h1 {
@@ -119,11 +118,11 @@ header img {
 header>div {
   display: inline-block;
   vertical-align: middle;
-  height: 100%
+  height: 100%;
 }
 
 header>div:first-of-type {
-  width: 35%;
+  width: 36%;
   font-size: 14px;
   white-space: nowrap;
   text-transform: uppercase;
@@ -142,8 +141,8 @@ header>div:first-of-type:after {
 }
 
 header>div:last-of-type {
-  width: 65%;
-  background: transparent url("../img/header-image.jpg") no-repeat;
+  width: 64%;
+  background: transparent url("../img/header-image2.jpg") no-repeat;
   background-size: cover;
 }
 
